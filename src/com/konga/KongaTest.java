@@ -39,7 +39,7 @@ public class KongaTest {
 		//to write phone number into email/phone number field
 		browser.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("08148413433");
 		
-		//to write password into the password field
+		//to write password into the password field for my password
 		browser.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("wizteen99");
 		
 		//to click the login button
@@ -48,7 +48,7 @@ public class KongaTest {
 		//to write Item name into search field
 		browser.findElement(By.xpath("//form[@class='f6ed2_25oVd']//input[@id='jsSearchInput']")).sendKeys("Samsung S10");
 		
-		//to click the search button
+		//to click the search button for electronics
 		browser.findElement(By.xpath("//form[@class='f6ed2_25oVd']//button[@class='fdd83_39Iap']")).click();
 		
 		//to click the add to cart button
